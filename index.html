@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title>Brandscore Reviews</title>
+    	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    	<meta charset="utf-8">
+    	<meta name="keywords" content="one, two, three">
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="finalproject.js"></script>
+	    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+	</head>
+	<body>
+	    <div class="selectors">
+		    <form class='search'>
+		    	<div class="pictures">
+			    	<div class='clearfix'>
+		                <label>
+		                    <input type="radio" name="hotel1" class="hotel1" value="..//final project/hilton.jpg">
+		                    <img src="..//final project/hilton.jpg">
+		                </label>
+		                <label>
+		                    <input type="radio" name="hotel2" class="hotel2" value="..//final project/ritz.jpg">
+		                    <img src="..//final project/ritz.jpg">
+		                </label>
+		                <label>
+		                    <input type="radio" name="hotel3" class="hotel3" value="..//final project/WHotel.jpg">
+		                    <img src="..//final project/WHotel.jpg">
+		                </label>
+		                <label>
+		                    <input type="radio" name="hotel4" class="hotel4" value="..//final project/Wynd.jpg">
+		                    <img src="..//final project/Wynd.jpg">
+		                </label>
+		                <label>
+		                    <input type="radio" name="hotel5" class="hotel5" value="..//final project/ihg.jpg">
+		                    <img src="..//final project/ihg.jpg">
+		                </label>
+		                <label>
+		                    <input type="radio" name="hotel6" class="hotel6" value="..//final project/hyatt.jpg">
+		                    <img src="..//final project/hyatt.jpg">
+		                </label>
+		            </div>
+	        	</div>
+	        	<div id="findhotels">Find Brandscores in:</div>
+	        	<input class="city" placeholder="Enter a city" type="text"/>
+		    	<select class="types">
+			  		<option value="restaurant">Restaurant</option>
+			    	<option value="lodging">Lodging</option>
+		      	</select>
+		    	<input type='submit'>
+      		</form>
+		</div>
+	    <div id="map-canvas"></div>
+	    <div class="results">
+	    	<p>change me</p>
+	    </div>
+  </body>
+</html>
