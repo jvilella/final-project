@@ -15,48 +15,71 @@
 
 	</head>
 	<body>
+		<header id="siteHeader">
+			<div class='clearfix'>
+				<div class="containerLogo">
+					<img clarss="logo" src="..//final project/bbdLogo.jpg">
+					<h1>bbd travel analysis</h1>
+				</div>
+			<div>
+			<div class="containerNav">
+				<ul>
+					<li>
+						<a href="#">work</a>
+					</li>
+					<li>
+						<a href="#">play</a>
+					</li>
+					<li>
+						<a href="#">brag</a>
+					</li>
+					<li>
+						<a href="#">demo</a>
+					</li>
+				</ul>
+			</div>
+		</header> 	
 	    <div class="selectors">
 		    <form class='search'>
 		    	<div class="pictures">
+		    		<h1>Top Worldwide Hotel Companies</h1>
+		    		<div class="triangle-l"></div> 
+					<div class="triangle-r"></div> 
 			    	<div class='clearfix'>
-		                <label>
-		                    <input type="radio" name="hotel1" class="hotel1" value="..//final project/hilton.jpg">
+		                <label class="firstL">
+		                    <input type="radio" name="hotel" class="hotel1" value="hilton">
 		                    <img src="..//final project/hilton.jpg">
 		                </label>
-		                <label>
-		                    <input type="radio" name="hotel2" class="hotel2" value="..//final project/ritz.jpg">
+		                <label class="secondL">
+		                    <input type="radio" name="hotel" class="hotel2" value="Ritz-Carlton">
 		                    <img src="..//final project/ritz.jpg">
 		                </label>
-		                <label>
-		                    <input type="radio" name="hotel3" class="hotel3" value="..//final project/WHotel.jpg">
+		                <label class="thirdL">
+		                    <input type="radio" name="hotel" class="hotel3" value="W">
 		                    <img src="..//final project/WHotel.jpg">
 		                </label>
-		                <label>
-		                    <input type="radio" name="hotel4" class="hotel4" value="..//final project/Wynd.jpg">
+		                <label class="fourthL">
+		                    <input type="radio" name="hotel" class="hotel4" value="Wyndham">
 		                    <img src="..//final project/Wynd.jpg">
 		                </label>
-		                <label>
-		                    <input type="radio" name="hotel5" class="hotel5" value="..//final project/ihg.jpg">
+		                <label class="fifthL">
+		                    <input type="radio" name="hotel" class="hotel5" value="IHG">
 		                    <img src="..//final project/ihg.jpg">
 		                </label>
-		                <label>
-		                    <input type="radio" name="hotel6" class="hotel6" value="..//final project/hyatt.jpg">
+		                <label class="sixthL">
+		                    <input type="radio" name="hotel" class="hotel6" value="Hyatt">
 		                    <img src="..//final project/hyatt.jpg">
 		                </label>
 		            </div>
 	        	</div>
 	        	<div id="findhotels">Find Brandscores in:</div>
 	        	<input class="city" placeholder="Enter a city" type="text"/>
-		    	<select class="types">
-			  		<option value="restaurant">Restaurant</option>
-			    	<option value="lodging">Lodging</option>
-		      	</select>
 		    	<input type='submit'>
       		</form>
 		</div>
 	    <div id="map-canvas"></div>
 	    <div class="results">
-	    	<p>change me</p>
+	    	<p></p>
 	    </div>
   </body>
 </html>

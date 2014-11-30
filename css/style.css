@@ -46,10 +46,15 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: "Blender","Helvetica Neue",Helvetica,Arial,sans-serif;
+     background: url("..//worldTravel.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     
 }
 
 
@@ -75,12 +80,67 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+#siteHeader {
+     background-color: rgb(60,83,96);
+     
+}
 
-html {
-     height: 300px;
-     width: 80%;
-     margin: 10px;
-     padding: 10px
+.containerLogo {
+     float: left;
+     width: 50%;
+     margin-left: 10px;
+}
+
+.containerNav {
+     float: right;
+     margin-right: 20px;
+     margin-top: 20px;
+}
+.containerNav ul li {
+     display: inline-block;
+}
+
+.containerNav a {
+     text-decoration: none;
+     color: white;
+     font-size: 28px;
+     padding-right: 20px;
+}
+
+.containerLogo h1 {
+     color: white;
+     float: right;
+     font-size: 60px;
+     font-weight: bold;
+     margin-right: -165px;
+     margin-top: 7px;
+     margin-bottom: 0px;
+
+     
+}
+.pictures {
+     border-width: 2px;
+     border-radius: 15px;
+     border-style: solid;
+     width: 800px;
+     height: 400px;
+     padding: 5px;
+     float: left;
+     margin-left: 50px;
+     margin-top: 15px;
+     background-color: white;
+     border-color: grey;
+     opacity: 0.9;
+}
+ 
+.pictures h1 {
+     background-color: rgb(41,41,40);
+     text-align: center;
+     color: white;
+     width: 825px;
+     margin-left: -20px;
+     height: 42px;
+     padding-top: 4px;
 }
 
 #map-cavanas {
@@ -88,12 +148,88 @@ html {
 }
 
 img {
-     width: 10%;
-     height: 10%;
-     display: inline-block;
+     width: 25%;
+     
 }
 
-.pictures {
-     background: rgba(205, 200, 200, 0.29);
+.triangle-l {
+    border-color: transparent rgb(41,41,40) transparent transparent;
+    border-style:solid;
+    border-width:13px;
+    height:0;
+    width:0;
+    position: absolute;
+    left: 24px;
+    top: 174px;
+}
+.triangle-r {
+    border-color: transparent transparent transparent rgb(41,41,40);
+    border-style:solid;
+    border-width:13px;
+    height:0;
+    width:0;
+    position: absolute;
+    left: 849px;
+    top: 174px;
+}
+
+.secondL {
+     margin-left: 110px;
+}
+
+.thirdL {
+     margin-left: 62px;
+}
+
+.fourthL {
+     margin-left: 15px;
+}
+
+.fifthL {
+     margin-left: 130px;
+}
+
+.sixthL {
+     margin-left: 45px;
+}
+
+.firstL input {
+     position: absolute;
+     top: 193px;
+     left: 150px;
+}
+
+.secondL input {
+     position: absolute;
+     top: 193px;
+     left: 465px;
+}
+
+.thirdL input {
+     position: absolute;
+     top: 193px;
+     left: 720px;
+}
+
+.fourthL input {
+     position: absolute;
+     top: 480px;
+     left: 150px;
+}
+
+.fifthL input {
+     position: absolute;
+     top: 480px;
+     left: 465px;
+}
+
+.sixthL input {
+     position: absolute;
+     top: 480px;
+     left: 720px;
+}
+
+.sixthL img {
+     padding-bottom: 32px;
 }
 
