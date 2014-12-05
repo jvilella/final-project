@@ -290,3 +290,10 @@ img {
      top: 220px;
      right: 20px;
 }
+
+.titleResults {
+     position: absolute;
+     top: 240px;
+     right: 106px;
+     font-size: 26px;
+}

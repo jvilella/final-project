@@ -38,7 +38,6 @@ function callback(results, status) {
       [$("input.hotel1:checked").val(), BrandScore],
     ]);
     var options = {
-      title: $("input.hotel1:checked").val()+' BrandScore Result',
       animateScale: true,
       pieHole: 0.6,
       backgroundColor: 'transparent',
@@ -77,6 +76,7 @@ $(document).ready(function() {
     city = $(".city").val();
     business = "Lodging "+$("input.hotel1:checked").val();
     initialize(business,city);
+    $('.titleResults').text($("input.hotel1:checked").val()+' BrandScore');
     SumScores=0;
     BrandScore=0;
     Scores=[];
